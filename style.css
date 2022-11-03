@@ -11,6 +11,7 @@ html {
 
 body {
     background-image: url(pics/bg-body.jpg);
+    background-size: cover;
 }
 
 #container {
@@ -21,8 +22,10 @@ body {
 
 #header {
     background-image: url(pics/bg-header.jpg);
+    height: 255px;
     color: white;
-    font-size: 72px;
     font-weight: bold;
-    padding-left: 80px;
+    font-size: xx-large;
+    padding-left: 60px;
+    padding-top: 80px;
 }
