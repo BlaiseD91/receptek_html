@@ -31,8 +31,90 @@ body {
     padding-top: 80px;
 }
 
+#main {
+    background-color: rgb(33, 30, 30);
+}
+
 #nav {
-    background-color: ;
-    width: 200px;
-    height: 1000px;
+    width: 19.99999%;
+    float: left;
+    padding: 20px 30px;
+}
+
+#nav ul {
+    list-style: none;
+}
+
+#nav ul li {
+    border-bottom: 1px dashed white;
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+#nav a:hover {
+    padding-left: 20px;
+    background-color: #3d8a12;
+    color: black;
+    font-weight: bold;
+}
+
+#content {
+    width: 79.999999%;
+    padding: 20px;
+    float: left;
+    background-color: white;
+}
+#main::after, p::after, #footer::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+#content h2 span {
+    color: white;
+    background-color: #3d8a12;
+    font-size: 55px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    border-left: 10px solid #3d8a12;
+    border-right: 10px solid #3d8a12;
+    border-top: 2px solid #3d8a12;
+    border-bottom: 2px solid #3d8a12;
+    -webkit-box-decoration-break: clone;
+    
+}
+
+#content p {
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.jobb {
+    float: right;
+    margin-left: 10px;
+    
+}
+.bal {
+    float: left;
+    margin-right: 10px;
+}
+
+#footer {
+    padding: 20px 0px;
+}
+
+#footer p:first-child {
+    float: left;
+}
+#footer p:last-child {
+    float: right;
+}
+
+#footer a {
+    color: black;
 }
