@@ -6,6 +6,7 @@
 
 html {
     font-size: 14px;
+    font-family: sans-serif;
 }
 
 body {
@@ -14,10 +15,14 @@ body {
 
 #container {
     max-width: 1000px;
+    margin: 0 auto;
     
 }
 
 #header {
     background-image: url(pics/bg-header.jpg);
-    height: 300px;
+    color: white;
+    font-size: 72px;
+    font-weight: bold;
+    padding-left: 80px;
 }
